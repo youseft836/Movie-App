@@ -1,0 +1,55 @@
+name: movies_app
+description: A new Flutter project.
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  dio: ^5.2.0+1
+  cached_network_image: ^3.2.3
+  internet_connection_checker: ^1.0.0+1
+  provider:
+  get_it: ^7.6.0
+  flutter_rating_bar: ^4.0.1
+  defer_pointer: ^0.0.2
+  url_launcher:
+  flutter_launcher_icons:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  #  image_path: "assets/images/movieIcon.png"
+  image_path_android: "assets/images/movieIcon.png"
+  image_path_ios: "assets/images/movieIcon.png"
+  android: true
+  ios: true
+  min_sdk_android: 21
+  remove_alpha_ios: true
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+     - assets/images/
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
